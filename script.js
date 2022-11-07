@@ -10,7 +10,6 @@ function validation() {
         inputEl.style.borderColor = "var(--soft-red)";
         inputEl.style.outlineColor = "var(--soft-red)";
         errorIconEl.style.display = "block";
-        inputEl.setCustomValidity(undefined);
     }
 }
 
