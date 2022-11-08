@@ -152,6 +152,10 @@ p, .input-container {
     #submit-button {
         width: var(--button-size-small);
     }
+
+    #error-icon {
+        right: calc(var(--button-size-small) + 1rem);
+    }
 }
 
 @media (max-width: 700px) {
@@ -183,10 +187,18 @@ p, .input-container {
     #submit-button {
         width: var(--button-size);
     }
+
+    #error-icon {
+        right: calc(var(--button-size) + 1rem);
+    }
 }
 
 @media (max-width: 450px) {
     #submit-button {
         width: var(--button-size-small);
+    }
+
+    #error-icon {
+        right: calc(var(--button-size-small) + 1rem);
     }
 }
