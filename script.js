@@ -3,7 +3,7 @@ function validation(e) {
     const validationMessageEl = document.getElementById("validation-message");
     const errorIconEl = document.getElementById("error-icon");
 
-    const emailPattern = /\w@\w/;
+    const emailPattern = /\w@\w\.\w/;
     const email = inputEl.value;
 
     let correctEmail = true;
